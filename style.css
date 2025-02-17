@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Urbanist, Sans-serif;
+    /* font-family: sans-serif; */
+}
+
+html,body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #2F3537;
+    color: #ffff;
+    position: relative;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.4rem 0;
+    /* background-color: green; */
+    /* display: block; */
+}
+
+.sidebar{
+
+    color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 350px;
+    background-color: white(0, 26, 255);
+    box-shadow: -10px 0 -10px rgb(0, 0,0,0.2);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 0.8rem 0.8rem ;
+
+}
+.sidebar ol{
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+
+.sidebar ol li{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: 600;
+    /* background-color: red; */
+}
+
+.sidebar ol li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+.sidebar .logo i{
+    font-size: 2.4rem;
+    color: #ffff;
+    width: 100%;
+}
+
+.nav i{
+    font-size: 2rem;
+    display: none;
+}
+
+.logo{
+    width: 12.2rem;
+}
+.logo img{
+    width: 100%;
+}
+
+.nav ol{
+    display: flex;
+    list-style: none;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.nav ol li{
+    margin-inline:  2rem;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    cursor: pointer;
+
+}
+
+.hero_section{
+    display: flex;
+    padding: 3rem 8rem;
+    gap: 1.2rem;
+   
+}
+
+.left{
+    padding: 4rem 0rem ;
+    /* background-color: red; */
+    margin-left: auto;
+    max-width: 28rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left h1{
+    font-size: 4rem;
+}
+
+.left p{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    color: gold;
+}
+
+.hero_btn{
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0;
+}
+
+
+.hero_inner_btn{
+    border: none;
+}
+
+.bg_no{
+    background-color: #2F3537;
+    color: #ffff;
+    border: 1px solid white;
+}
+
+.right{
+    /* border: 2px solid white; */
+    margin-inline: auto;
+    width: min(40rem,65%);
+}
+
+.right img{
+    width: 100%;
+}
+
+.ffunds{
+   width: 50rem;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+   justify-content: center;
+}
+
+.ffunds h1{
+    font-size: 3.5rem;
+}
+.ffunds span{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ffunds p{
+    color: gold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.ffunds div{
+    text-align: center;
+}
+
+.card_container{
+   display: flex;
+   padding: 4rem 1rem;
+   gap: 1.5rem;
+   /* background-color: red; */
+   margin: auto;
+   width: min(112rem,70%);
+}
+.card{
+    padding: 3rem 1rem;
+    margin: auto;
+    max-width: 30rem;
+    /* background-color: red; */
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.7rem;
+
+}
+.card:hover{
+    background-color: #366B58;
+}
+
+.card_img{
+    width: min(18rem,65%);
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card span{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.card p{
+    color: gold;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.card button{
+    border: none;
+    margin-top: 3.5rem;
+}
+
+.get_cash_container{
+    margin: auto;
+    width: 68vw;
+    /* height: 32vh; */
+    border-radius: 0.7rem;
+    background-color: #FCBF63;
+    display: flex;
+    padding: 0 3.8rem;
+    justify-content: space-between;
+}
+
+.text{
+    /* border: 2px solid black; */
+    padding: 2.8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.2rem;
+    color: black;
+    
+}
+
+.text h1{
+    font-size: 2.4rem;
+}
+
+
+.text p{
+    font-size: 1.3rem;
+    
+}
+
+.cash_img{
+    margin-left: 18rem;
+    width: min(10rem,60%);
+    /* border: 2px solid black; */
+}
+
+.cash_img img{
+    scale: 1.3;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.opu{
+    display: flex;
+    width: 68vw;
+    margin: auto;
+    /* flex-direction: column; */
+    /* background-color: red; */
+    justify-content: space-between;
+    padding: 7rem 0 3rem;
+}
+
+.opu_img{
+    /* background-color: green; */
+    /* margin-right: auto; */
+    width: min(38rem,65%);
+}
+
+.opu_img img{
+    width: 100%;
+}
+
+.opu_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+
+.opu_text h2{
+    font-size: 3rem;
+    padding: 0.7rem 0 ;
+}
+.opu_text >p:nth-child(2){
+    font-size: 1.3rem;
+    color: goldenrod;
+    padding: 0.2rem ;
+}
+
+.opu_box{
+    /* background-color: red; */
+    padding: 1.7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.opu_box p{
+    width: 28vw;
+    /* background-color: red; */
+    border-radius: 0.4rem;
+    border: 0.5px solid gray;
+    padding: 0.8rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.opu_box>p:hover{
+    background-color: #366B58;
+}
+
+.opu_box>p i{
+    font-size: 2.1rem;
+    font-weight: 200;
+    padding: 0.3rem;
+}
+
+.syf{
+    display: flex;
+    width: min(70vw,70%);
+    padding: 3rem 0;
+    margin: auto;
+}
+
+
+
+.syf_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* padding: 4.2rem 0; */
+    /* background-color: red; */
+    
+    /* display: flex; */
+}
+
+.syf h2{
+  font-size: 3.1rem;
+}
+
+.syf_text>p{
+    color: goldenrod;
+    font-size: 1.2rem;
+    padding: 0.9rem 0;
+    font-weight: 600;
+    
+}
+.credential{
+    /* background-color: red; */
+    padding: 1.7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.credential p{
+    font-size: 1.3rem;
+    display: flex;
+    gap: 0.7rem;
+}
+.credential>p>i{
+    color: gray;
+    font-size: 1.6rem;
+
+}
+
+.syf_form{
+    margin-left: auto;
+    padding: 3rem ;
+    border-radius: 0.6rem;
+    /* border:2px solid white; */
+    background-color: goldenrod;
+    color: black;
+
+}
+
+.syf_form h2{
+    font-size: 2.7rem;
+    padding: 0.5rem 0;
+}
+.syf_form >p{
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+}
+
+.input{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    justify-content: space-around;
+}
+.input input{
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.2px solid gray;
+}
+
+::placeholder{
+    color: black;
+}
+.email_phone{
+    display: flex;
+    gap: 0.4rem;
+}
+.email_phone input{
+    width: 80%;
+    
+}
+
+
+
+.input textarea {
+    /* background-color: yellow; */
+    height: 12rem;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    
+}
+   
+.input p{
+    font-size: 0.7rem;
+}
+
+.input button{
+    border: none;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    /* background-color: red; */
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media(max-width:600px){
+  .nav {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* border: 2px solid wheat; */
+    
+  }
+  .nav .logo{
+    width: 9.4rem;
+    
+  }
+  .nav i{
+    display: block;
+    font-size: 1.8rem;
+  }
+
+  .nav ol li , .nav_btn{
+    display: none;
+  }
+
+  .hero_section{
+    flex-direction: column-reverse;
+    /* border: 2px solid white; */
+    padding: 0;
+    gap: 0;
+  }
+  .hero_section .left{
+    /* background-color: red; */
+    padding: 0 ;
+    /* margin: 0 1rem; */
+  }
+  .hero_section .left h1{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    font-size: 2.3rem;
+    text-align: center;
+
+    br{
+        display: none;
+    }
+  }
+  .hero_section .left p{
+    text-align: center;
+    /* background-color: red; */
+    
+    
+  }
+  .hero_btn{
+    justify-content: center;
+  }
+  .ffunds{
+    width: 100% ;
+    /* background-color: red; */
+}
+.ffunds h1{
+      font-size: 2.1rem;
+      /* background-color: red; */
+    br{
+        display: none;
+    }
+  }
+  .ffunds div span{
+    font-size: 2.1rem;
+  }
+
+  .ffunds p{
+    /* background-color: red; */
+    padding: 0 0.6rem;
+  }
+ .card_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem 0 ;
+    width: 90%;
+    /* background-color: red; */
+ }
+ .get_cash_container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    padding: 0.8 0rem;
+
+ }
+ .cash_img{
+    scale: 1.2;
+    /* width: 30vw; */
+    margin: auto;
+    /* background-color: red; */
+ }
+ .text{
+    margin: auto;
+    /* background-color: red; */
+    width: 20rem;
+    margin: auto;
+ }
+ .opu{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1.3 0;
+
+ }
+ .opu_img{
+    width: min(25rem);
+ } 
+ .opu_text h2{
+    font-size: 2.6rem;
+ }
+ .opu_text>p:nth-child(2){
+    font-size: 1.1rem;
+    /* background-color: red; */
+ }
+ .opu_box , .opu_box p{
+    width: 100%;
+    /* background-color: red; */
+    font-size: 0.99rem;
+ }
+
+ .opu_box i{
+    font-size: 0.8rem;
+    color: gray;
+
+ }
+ .syf{
+    display: flex;
+    width: 90%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+ }
+ .syf_form{
+    padding: 0.8rem 0.8rem ;
+ }
+ .syf_form h2{
+    font-size: 2.1rem;
+    
+ }
+ .syf_text h2{
+    font-size: 2.1rem;
+    padding: 0.9rem 0 0 0;
+    /* background-color: red; */
+    br{
+        display: none;
+    }
+ }
+ .syf_text{
+    width: 100%;
+ }
+ .syf_text p{
+    /* background-color: red; */
+    font-size: 0.99rem;
+    align-items: center;
+    /* text-align: center; */
+ }
+ .credential i{
+    font-size: o.99rem;
+ }
+ .copyright{
+    font-size: 0.6rem;
+ }
+}
+
+@media(max-width:600px){
+    .sidebar{
+        width: 100%;
+    }
+}
