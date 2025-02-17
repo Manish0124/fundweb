@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Urbanist, Sans-serif;
-    /* font-family: sans-serif; */
 }
 
 html,body{
@@ -21,8 +20,6 @@ html,body{
     justify-content: space-evenly;
     align-items: center;
     padding: 1.4rem 0;
-    /* background-color: green; */
-    /* display: block; */
 }
 
 .sidebar{
@@ -62,7 +59,6 @@ html,body{
     border-radius: 0.4rem;
     color: white;
     font-weight: 600;
-    /* background-color: red; */
 }
 
 .sidebar ol li a{
@@ -121,7 +117,6 @@ html,body{
 
 .left{
     padding: 4rem 0rem ;
-    /* background-color: red; */
     margin-left: auto;
     max-width: 28rem;
     display: flex;
@@ -157,7 +152,6 @@ html,body{
 }
 
 .right{
-    /* border: 2px solid white; */
     margin-inline: auto;
     width: min(40rem,65%);
 }
@@ -198,7 +192,6 @@ html,body{
    display: flex;
    padding: 4rem 1rem;
    gap: 1.5rem;
-   /* background-color: red; */
    margin: auto;
    width: min(112rem,70%);
 }
@@ -206,7 +199,6 @@ html,body{
     padding: 3rem 1rem;
     margin: auto;
     max-width: 30rem;
-    /* background-color: red; */
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
@@ -247,7 +239,6 @@ html,body{
 .get_cash_container{
     margin: auto;
     width: 68vw;
-    /* height: 32vh; */
     border-radius: 0.7rem;
     background-color: #FCBF63;
     display: flex;
@@ -256,7 +247,6 @@ html,body{
 }
 
 .text{
-    /* border: 2px solid black; */
     padding: 2.8rem 0rem;
     display: flex;
     flex-direction: column;
@@ -279,28 +269,22 @@ html,body{
 .cash_img{
     margin-left: 18rem;
     width: min(10rem,60%);
-    /* border: 2px solid black; */
 }
 
 .cash_img img{
     scale: 1.3;
     width: 100%;
-    /* background-color: red; */
 }
 
 .opu{
     display: flex;
     width: 68vw;
     margin: auto;
-    /* flex-direction: column; */
-    /* background-color: red; */
     justify-content: space-between;
     padding: 7rem 0 3rem;
 }
 
 .opu_img{
-    /* background-color: green; */
-    /* margin-right: auto; */
     width: min(38rem,65%);
 }
 
@@ -313,7 +297,6 @@ html,body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    /* border: 2px solid white; */
 }
 
 .opu_text h2{
@@ -327,7 +310,6 @@ html,body{
 }
 
 .opu_box{
-    /* background-color: red; */
     padding: 1.7rem 0;
     display: flex;
     flex-direction: column;
@@ -335,7 +317,6 @@ html,body{
 }
 .opu_box p{
     width: 28vw;
-    /* background-color: red; */
     border-radius: 0.4rem;
     border: 0.5px solid gray;
     padding: 0.8rem 0;
@@ -369,11 +350,7 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* justify-content: space-evenly; */
-    /* padding: 4.2rem 0; */
-    /* background-color: red; */
     
-    /* display: flex; */
 }
 
 .syf h2{
@@ -388,7 +365,6 @@ html,body{
     
 }
 .credential{
-    /* background-color: red; */
     padding: 1.7rem 0;
     display: flex;
     flex-direction: column;
@@ -410,7 +386,6 @@ html,body{
     margin-left: auto;
     padding: 3rem ;
     border-radius: 0.6rem;
-    /* border:2px solid white; */
     background-color: goldenrod;
     color: black;
 
@@ -426,7 +401,6 @@ html,body{
 }
 
 .input{
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
@@ -453,7 +427,6 @@ html,body{
 
 
 .input textarea {
-    /* background-color: yellow; */
     height: 12rem;
     border-radius: 0.4rem;
     padding: 0.6rem;
@@ -471,7 +444,6 @@ html,body{
 
 footer{
     display: flex;
-    /* background-color: red; */
     padding: 3rem;
     align-items: center;
     justify-content: center;
@@ -485,13 +457,11 @@ footer p{
 
 @media(max-width:600px){
   .nav {
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* border: 2px solid wheat; */
     
   }
   .nav .logo{
@@ -509,17 +479,13 @@ footer p{
 
   .hero_section{
     flex-direction: column-reverse;
-    /* border: 2px solid white; */
     padding: 0;
     gap: 0;
   }
   .hero_section .left{
-    /* background-color: red; */
     padding: 0 ;
-    /* margin: 0 1rem; */
   }
   .hero_section .left h1{
-    /* background-color: red; */
     width: 90%;
     margin: auto;
     font-size: 2.3rem;
@@ -531,7 +497,6 @@ footer p{
   }
   .hero_section .left p{
     text-align: center;
-    /* background-color: red; */
     
     
   }
@@ -540,11 +505,9 @@ footer p{
   }
   .ffunds{
     width: 100% ;
-    /* background-color: red; */
 }
 .ffunds h1{
       font-size: 2.1rem;
-      /* background-color: red; */
     br{
         display: none;
     }
@@ -554,7 +517,6 @@ footer p{
   }
 
   .ffunds p{
-    /* background-color: red; */
     padding: 0 0.6rem;
   }
  .card_container{
@@ -562,7 +524,6 @@ footer p{
     flex-direction: column;
     padding: 1.8rem 0 ;
     width: 90%;
-    /* background-color: red; */
  }
  .get_cash_container{
     display: flex;
@@ -573,13 +534,10 @@ footer p{
  }
  .cash_img{
     scale: 1.2;
-    /* width: 30vw; */
     margin: auto;
-    /* background-color: red; */
  }
  .text{
     margin: auto;
-    /* background-color: red; */
     width: 20rem;
     margin: auto;
  }
@@ -598,11 +556,9 @@ footer p{
  }
  .opu_text>p:nth-child(2){
     font-size: 1.1rem;
-    /* background-color: red; */
  }
  .opu_box , .opu_box p{
     width: 100%;
-    /* background-color: red; */
     font-size: 0.99rem;
  }
 
@@ -628,7 +584,6 @@ footer p{
  .syf_text h2{
     font-size: 2.1rem;
     padding: 0.9rem 0 0 0;
-    /* background-color: red; */
     br{
         display: none;
     }
@@ -637,10 +592,8 @@ footer p{
     width: 100%;
  }
  .syf_text p{
-    /* background-color: red; */
     font-size: 0.99rem;
     align-items: center;
-    /* text-align: center; */
  }
  .credential i{
     font-size: o.99rem;
